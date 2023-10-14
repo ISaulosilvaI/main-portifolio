@@ -1,0 +1,67 @@
+/* HABILIDADES */
+.habilidades{
+    min-height: 100%;
+    width: 100%;
+    background: url(/src/images/fundo-3.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.habilidades .container-habilidades {    
+    text-align: center;    
+    display: flex;
+    justify-content: center;    
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.habilidades .container-habilidades .informacoes{
+    max-width: 350px;
+    padding: 40px 20px;    
+}
+
+.habilidades .container-habilidades .informacoes p,
+.habilidades .container-habilidades .informacoes h3,
+.habilidades .container-habilidades .informacoes .logo i{
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.javascript:hover{
+    color: #fcf93d;
+}
+
+.html:hover{
+    color: #fa4e0a;
+}
+.css:hover{
+    color: #3d60fc;
+}
+
+.react:hover{
+    color: #3deffc;
+}
+
+/* .habilidades .container-habilidades .informacoes:hover p,
+.habilidades .container-habilidades .informacoes:hover h3
+{
+    color: var(--cor-primaria);
+} */
+
+.habilidades .container-habilidades .informacoes h3 {
+    font-size: var(--fonte-extra-grande);
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: var(--cor-branca);      
+}
+
+.habilidades .container-habilidades .informacoes p {
+    font-size: 2rem;
+    font-family: var(--fonte-secundaria);
+}
+
+.habilidades .container-habilidades .informacoes .logo i {
+    font-size: 9rem;
+}
